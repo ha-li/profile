@@ -1,0 +1,5 @@
+export SCALA_HOME=~/Bin/scala
+export SCALA_BIN=$SCALA_HOME/bin
+
+alais scalahome='cd $SCALA_HOME';
+
