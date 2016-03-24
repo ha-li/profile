@@ -27,3 +27,6 @@ if [ -f ~/.mongo_env ]; then
    . ~/.mongo_env
 fi
 
+if [ -f ~/.scala_env ]; then
+   . ~/.scala_env
+fi
