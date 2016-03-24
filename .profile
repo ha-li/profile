@@ -1,11 +1,7 @@
-export SCALA_HOME=/Users/hlieu/Bin/scala
-export SCALA_BIN=$SCALA_HOME/bin
-export MONGO_HOME=/Users/hlieu/Bin/mongodb
-export MONGO_BIN=$MONGO_HOME/bin
+# export SCALA_HOME=/Users/hlieu/Bin/scala
+# export SCALA_BIN=$SCALA_HOME/bin
 export GRADLE_BIN=/Users/hlieu/Bin/gradle/bin
 
-
-# for load balancer, see DSClient.properties
 
 # the correct way to set JAVA_HOME in macbooks
 # now you can use JAVA_HOME in PATH, and mvn will work this way also
@@ -26,3 +22,8 @@ fi
 if [ -f ~/.bash_path ]; then
    . ~/.bash_path
 fi
+
+if [ -f ~/.mongo_env ]; then
+   . ~/.mongo_env
+fi
+

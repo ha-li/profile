@@ -1,0 +1,7 @@
+# a environmental file for mongo stuff
+export MONGO_HOME=~/Bin/mongodb
+export MONGO_BIN=$MONGO_HOME/bin
+
+# some mongo aliases
+alias mongohome='cd $MONGO_HOME';
+alias mongod='mongod --dbpath $MONGO_HOME/data/db'
