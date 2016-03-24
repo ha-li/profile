@@ -1,9 +1,9 @@
 # the correct way to set JAVA_HOME in macbooks
 export JAVA_HOME=$(/usr/libexec/java_home)
 
-export CATALINA_HOME=/Users/hlieu/Desktop/apache-tomcat-7.0.50
+export CATALINA_HOME=~/Desktop/apache-tomcat-7.0.50
 
-export GRADLE_BIN=/Users/hlieu/Bin/gradle/bin
+export GRADLE_BIN=~/Bin/gradle/bin
 
 # set the path on my profile
 export PATH=$JAVA_HOME:/usr/local/git/bin:~/Java/apache-maven/bin:$PATH
