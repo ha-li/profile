@@ -1,3 +1,5 @@
+
+# set the path on my profile
 export PATH=$JAVA_HOME:/usr/local/git/bin:~/Java/apache-maven/bin:$PATH
 
 
