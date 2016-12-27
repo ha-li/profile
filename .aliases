@@ -1,0 +1,25 @@
+alias aka="alias"
+
+# useful list aliases
+aka ll='ls -l'
+aka la='ls -a'
+aka lla='ls -la'
+
+# useful quick short cuts
+aka desktop='cd ~/Desktop'
+aka repo='cd $REPO'
+aka gitdir='cd $GIT'
+
+# wifi short cuts
+aka wirelessdown='sudo ifconfig en1 down'
+aka wirelessup='sudo ifconfig en1 up'
+aka wireup='sudo ifconfig en0 up'
+aka wiredown='sudo ifconfig en0 down'
+aka wired='echo en0'
+aka wireless='echo en1'
+aka profile='. ~/.profile'
+aka ssh_nas='ssh -l admin -p 8022 192.168.1.65'
+
+# how's my network connection
+aka ok='ping google.com'
+
