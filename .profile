@@ -19,11 +19,15 @@ export MVN_HOME=$HOME/java/maven
 export GROOVY_HOME=$HOME/java/groovy
 export STORM_HOME=/usr/local/bin/storm
 export MYSQL_HOME=/usr/local/mysql
+export AMQ_HOME=($HOME/java/apache-activemq)
 
 export ARCHFLAGS="-arch x86_64"
 export REPO=$HOME/Repository
 export REPO_GIT=($REPO/git)
 export GIT=($REPO_GIT)
+
+# some stupid gradle stuff
+export ORG_GRADLE_PROJECT_envProjectProp=KickingAss
 
 # replace this with a one-line-per-path path
 #export PATH=$JAVA_HOME/bin:$PATH:/usr/local/bin:$MYSQL_HOME/bin:/usr/local/git/bin:$MVN_HOME/bin:$HOME/bin/:$GRADLE_HOME/bin:$GOPATH/bin:$STORM_HOME/bin:$GROOVY_HOME/bin

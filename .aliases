@@ -4,6 +4,8 @@ alias aka="alias"
 aka ll='ls -l'
 aka la='ls -a'
 aka lla='ls -la'
+aka lal='ls -la'
+aka lala='echo hahaha hohoho lol'
 
 # useful quick short cuts
 aka desktop='cd ~/Desktop'
@@ -19,6 +21,7 @@ aka wired='echo en0'
 aka wireless='echo en1'
 aka profile='. ~/.profile'
 aka ssh_nas='ssh -l admin -p 8022 192.168.1.65'
+aka startamq='$AMQ_HOME/bin/activemq console'
 
 # how's my network connection
 aka ok='ping google.com'
