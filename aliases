@@ -1,0 +1,37 @@
+alias aka="alias"
+
+# useful list aliases
+aka ll='ls -l'
+aka la='ls -a'
+aka lla='ls -la'
+aka lal='ls -la'
+aka lala='echo hahaha hohoho lol'
+
+# useful quick short cuts
+aka desktop='cd ~/Desktop'
+aka repo='cd $REPO'
+aka gitdir='cd $GIT'
+
+# wifi short cuts
+aka wirelessdown='sudo ifconfig en1 down'
+aka wirelessup='sudo ifconfig en1 up'
+aka wireup='sudo ifconfig en0 up'
+aka wiredown='sudo ifconfig en0 down'
+aka wired='echo en0'
+aka wireless='echo en1'
+aka profile='. ~/.profile'
+aka ssh_nas='ssh -l admin -p 8022 192.168.1.65'
+aka startamq='$AMQ_HOME/bin/activemq console'
+
+# how's my network connection
+aka ok='ping google.com'
+
+# set the terminal window name
+aka title='echo -n -e "\033]0;$title\007"'
+
+aka vi-binding='bind -p | grep -v "^#\|self-insert\|^$"'
+
+if [ -f ~/.alias-ora ]; then 
+   . ~/.alias-ora 
+fi
+

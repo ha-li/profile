@@ -1,0 +1,5 @@
+# aliases to start and stop oracle on dockers
+aka start-oracle-docker='docker run -d --name oracle-docker -p 1521:1521 -p 10022:22 -p 18080:8080 wnameless/oracle-xe-11g'
+aka stop-oracle='docker stop oracle-docker'
+aka restart-oracle='docker start oracle-docker'
+aka start-oracle='docker start oracle-docker'
