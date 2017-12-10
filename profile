@@ -22,9 +22,12 @@ export MYSQL_HOME=/usr/local/mysql
 export AMQ_HOME=($HOME/java/apache-activemq)
 
 export ARCHFLAGS="-arch x86_64"
-export REPO=$HOME/Repository
+export REPO=$HOME/Repo
 export REPO_GIT=($REPO/git)
 export GIT=($REPO_GIT)
+export AWS=(~/Library/Python/3.6)
+
+export PYTHON_36=/Library/Frameworks/Python.framework/Versions/3.6
 
 #oracle
 export ORACLE_HOME=/Applications/oracle/instantclient_12_1
@@ -51,6 +54,8 @@ $GOPATH/bin
 $STORM_HOME/bin
 $GROOVY_HOME/bin
 $ORACLE_HOME/bin
+$PYTHON_36/bin
+$AWS/bin
 )
 OLD_IFS="$IFS"
 export IFS=":"
@@ -63,7 +68,7 @@ export IFS="$OLD_IFS"
 
 
 # pip should only run if there is a virtualenv currently activated
-export PIP_REQUIRE_VIRTUALENV=true
+#export PIP_REQUIRE_VIRTUALENV=true
 #cache pip-installed packages to avoid re-downloading
 export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
 
@@ -90,3 +95,8 @@ set editing-mode vi
 set keymap vi-command
 
 
+
+# Setting PATH for Python 3.6
+# The original version is saved in .profile.pysave
+#PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+#export PATH
