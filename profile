@@ -4,7 +4,7 @@
 #echo "killall Terminal"
 
 
-# focus baby! not working in high sierra
+#  focus baby! not working in high sierra
 alias focus='echo defaults write com.apple.Terminal FocusFollowsMouse -string YES'
 
 
