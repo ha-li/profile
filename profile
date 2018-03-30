@@ -48,7 +48,8 @@ $JAVA_HOME/bin
 $MYSQL_HOME/bin
 /usr/local/git/bin
 $MVN_HOME/bin
-$HOME/bin/
+$HOME/bin
+$HOME/Bin
 $GRADLE_HOME/bin
 $GOPATH/bin
 $STORM_HOME/bin
@@ -87,6 +88,11 @@ if [ -f ~/.aliases ]; then
    . ~/.aliases
 fi
 
+# bash library functions
+# allow you to use the functions directly on the command line
+if [ -f ~/Bin/lib_function.sh ]; then
+   . ~/Bin/lib_function.sh
+fi
 
 # put into vi mode
 EDITOR=/usr/bin/vim
